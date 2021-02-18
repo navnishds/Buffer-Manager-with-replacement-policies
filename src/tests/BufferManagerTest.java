@@ -8,7 +8,7 @@ import global.PageId;
 /**
  * Test suite for the bufmgr layer.
  */
-class BMTest extends TestDriver {
+class BufferManagerTest extends TestDriver {
 
   /** The display name of the test suite. */
   private static final String TEST_NAME = "buffer manager tests";
@@ -19,7 +19,7 @@ class BMTest extends TestDriver {
   public static void main(String argv[]) {
 
     // create a clean Minibase instance
-    BMTest bmt = new BMTest();
+    BufferManagerTest bmt = new BufferManagerTest();
     bmt.create_minibase();
 
     // run all the test cases
@@ -429,4 +429,4 @@ class BMTest extends TestDriver {
 
   } // protected boolean test3 ()
 
-} // class BMTest extends TestDriver
+} // class BufferManagerTest extends TestDriver
