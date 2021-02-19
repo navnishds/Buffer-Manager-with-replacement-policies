@@ -10,3 +10,8 @@ Replacement policies:
 1. Clock: Give second chance to page which is currently not being used.
 2. LRU: Select page for replacement which was least recently used. 
 3. Random: Select any frame which is available for replacement.
+
+Steps:
+
+1. make bufmgr
+2. make testFileName

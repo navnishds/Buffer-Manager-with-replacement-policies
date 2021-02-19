@@ -1,9 +1,12 @@
 
 package bufmgr;
 
-import diskmgr.*;
-import global.*;
-import java.util.*;
+import global.GlobalConst;
+import global.Minibase;
+import global.Page;
+import global.PageId;
+import java.util.List;
+import java.util.ArrayList;
 
 /**
  * Random replacement policy.

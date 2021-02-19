@@ -1,9 +1,10 @@
 
 package bufmgr;
 
-import diskmgr.*;
-import global.*;
-import java.util.*;
+import global.GlobalConst;
+import global.Minibase;
+import global.Page;
+import global.PageId;
 
 /**
  * Clock replacement policy.

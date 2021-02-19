@@ -18,7 +18,7 @@ bufmgr:
 
 bmtest:
 	$(JAVAC) $(SRCPATH)/tests/BufferManagerTest.java
-	$(JAVA) tests.BMTest
+	$(JAVA) tests.BufferManagerTest
 
 ptest:
 	$(JAVAC) $(SRCPATH)/tests/PolicyTest.java
@@ -26,7 +26,7 @@ ptest:
 
 ptest2:
 	$(JAVAC) $(SRCPATH)/tests/RandomPolicyTest.java
-	$(JAVA) tests.PolicyTest2
+	$(JAVA) tests.RandomPolicyTest
 
 clean: clean_classes clean_backups clean_temps
 	rm -rf *.minibase $(BINPATH)/*

@@ -1,9 +1,11 @@
 
 package bufmgr;
 
-import diskmgr.*;
-import global.*;
-import java.util.*;
+import global.GlobalConst;
+import global.Minibase;
+import global.Page;
+import global.PageId;
+import java.util.ArrayList;
 
   /**
    * Lru replacement policy.
@@ -23,7 +25,7 @@ class Lru extends  Replacer {
      * An array to hold number of frames in the buffer pool
      */
 
-    private int  frames[];
+    private int frames[];
     //array to keep track of available frame
     ArrayList<Integer> availableFrames;
     //array to keep track of least recently used pages
@@ -32,7 +34,7 @@ class Lru extends  Replacer {
      * private field
      * number of frames used
      */   
-    private int  nframes;
+    private int nframes;
     //Buffer size
     int numberOfBuffers;
     int index;
